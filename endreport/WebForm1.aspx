@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Button ID="Button1" runat="server" Text="Button" />
+            <asp:Label runat="server" Text="保單電訪單"></asp:Label>
         </div>
     </form>
 </body>
