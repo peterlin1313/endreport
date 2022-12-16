@@ -10,7 +10,13 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label runat="server" Text="保單電訪單"></asp:Label>
+            <h1>保單電訪單</h1>
+            <asp:Label ID="Lablel1" runat="server" Text="保單編號："></asp:Label>
+            <asp:TextBox ID="tb_Num" runat="server" OnTextChanged="tb_Num_TextChanged"></asp:TextBox><br />
+            聯絡方式：
+            <asp:RadioButtonList ID="rbl_Phone" runat="server" RepeatDirection="Horizontal" RepeatLayout="Flow">
+                <asp:ListItem Text="手機" Selected="True"></asp:ListItem>
+            </asp:RadioButtonList>
         </div>
     </form>
 </body>

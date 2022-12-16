@@ -13,5 +13,10 @@ namespace endreport
         {
 
         }
+
+        protected System.Void tb_Num_TextChanged()
+        {
+
+        }
     }
 }
