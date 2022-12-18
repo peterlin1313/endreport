@@ -9,8 +9,11 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:Button ID="Button1" runat="server" Text="Button" />
+        <div style="text-align: center;>
+            <asp:Image ID="Image1" runat="server" ImageUrl="images/topic.jpg" />
+            <br />
+            <h2>犬種</h2>
+            <asp:DropDownList ID="DropDownList1" runat="server"></asp:DropDownList>
         </div>
     </form>
 </body>
