@@ -15,8 +15,33 @@
             <h1>犬種</h1>
             <asp:DropDownList ID="DropDownList1" runat="server"></asp:DropDownList>
         </div>
-        <div style="text-align: right;background-color: #FFF0AC; width: 1000px;margin:0 auto">
-            <asp:Image ID="Image2" runat="server"/>
+        <div style="text-align: center;background-color: #FFF8D7; height:500px; width: 1000px;margin:0 auto; background-image: url(Images/divbackground.png)">
+            <div style="text-align: left; margin-top: 0px; margin-left: 150px; float:left">
+                <br />
+                <asp:Label ID="Label1" runat="server" Text="Label">
+                    <h2>簡介</h2>
+                    DOG<br />
+                    DOG<br />
+                    DOG<br />
+                </asp:Label>
+                <asp:Label ID="Label2" runat="server" Text="Label">
+                    <h2>適合環境</h2>
+                    DOG<br />
+                    DOG<br />
+                    DOG<br />
+                </asp:Label>
+                <asp:Label ID="Label3" runat="server" Text="Label">
+                    <h2>性格</h2>
+                    DOG<br />
+                    DOG<br />
+                    DOG<br />
+                </asp:Label>
+            </div>
+            <div style="text-align: right; margin-top: 0px; margin-right: 150px">
+                <br />
+                <asp:Image ID="Image2" runat="server" ImageUrl="images/labla.jpg" />
+            </div>
+            
         </div>
     </form>
 </body>
