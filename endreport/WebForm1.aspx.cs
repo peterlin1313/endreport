@@ -12,11 +12,6 @@ namespace endreport
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected System.Void tb_Num_TextChanged()
-        {
-
-        }
+        }       
     }
 }
