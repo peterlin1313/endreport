@@ -16,7 +16,7 @@
             <asp:DropDownList ID="DropDownList1" runat="server"></asp:DropDownList>
         </div>
         <div style="text-align: right;background-color: #FFF0AC; width: 1000px;margin:0 auto">
-            <asp:Image ID="Image2" runat="server" ImageUrl="images/lab.jpg" />
+            <asp:Image ID="Image2" runat="server"/>
         </div>
     </form>
 </body>
