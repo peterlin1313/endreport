@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
 </head>
-<body>
+<body style = "background-image: url(Images/background.png)">
     <form id="form1" runat="server">
         <div style="text-align: center; ">
             <asp:Image ID="Image1" runat="server" ImageUrl="images/topic.jpg" />
