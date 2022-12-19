@@ -10,12 +10,12 @@
 <body style = "background-image: url(Images/background.png)">
     <form id="form1" runat="server">
         <div style="text-align: center; ">
-            <asp:Image ID="Image1" runat="server" ImageUrl="images/topic.jpg" />
+            <asp:Image ID="Image1" runat="server" ImageUrl="images/topic.png" />
             <br />
             <h1>犬種</h1>
             <asp:DropDownList ID="DropDownList1" runat="server"></asp:DropDownList>
         </div>
-        <div style="text-align: right;background-color: #FFDD00; width: 1500px;margin:0 auto">
+        <div style="text-align: right;background-color: #FFF0AC; width: 1000px;margin:0 auto">
             <asp:Image ID="Image2" runat="server" ImageUrl="images/lab.jpg" />
         </div>
     </form>
