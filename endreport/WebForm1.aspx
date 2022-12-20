@@ -15,7 +15,7 @@
             <h1>犬種</h1>
             <asp:DropDownList ID="DropDownList1" runat="server"></asp:DropDownList>
         </div>
-        <div style="text-align: center;background-color: #FFF8D7; height:500px; width: 1000px;margin:0 auto; background-image: url(Images/divbackground.png)">
+        <div style="text-align: center;background-color: #ffff; height:500px; width: 1000px;margin: auto; background-image: url(Images/divbackground3.png);background-size:cover">
             <div style="text-align: left; margin-top: 0px; margin-left: 150px; float:left">
                 <br />
                 <asp:Label ID="Label1" runat="server" Text="Label">

@@ -85,6 +85,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="109111110.md" />
     <None Include="packages.config" />
     <Content Include="Web.config.peterlin" />
     <None Include="Web.Debug.config">
