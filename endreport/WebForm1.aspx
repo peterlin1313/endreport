@@ -35,7 +35,7 @@
                 <br />
                 <asp:Image ID="Image2" runat="server" />
             </div>
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:petConnectionString %>" DeleteCommand="DELETE FROM [pet] WHERE [Id] = @Id" InsertCommand="INSERT INTO [pet] ([Id], [petname]) VALUES (@Id, @petname)" SelectCommand="SELECT * FROM [pet]" UpdateCommand="UPDATE [pet] SET [petname] = @petname WHERE [Id] = @Id">
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:petConnectionString2 %>" DeleteCommand="DELETE FROM [pet] WHERE [Id] = @Id" InsertCommand="INSERT INTO [pet] ([Id], [petname]) VALUES (@Id, @petname)" SelectCommand="SELECT * FROM [pet]" UpdateCommand="UPDATE [pet] SET [petname] = @petname WHERE [Id] = @Id">
                 <DeleteParameters>
                     <asp:Parameter Name="Id" Type="Int32" />
                 </DeleteParameters>
