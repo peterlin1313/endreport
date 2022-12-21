@@ -13,7 +13,7 @@
             <asp:Image ID="Image1" runat="server" ImageUrl="images/topic.png" />
             <br />
             <h1>犬種</h1>
-            <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource1" DataTextField="petname" DataValueField="petname"></asp:DropDownList>
+            <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource1" DataTextField="petname" DataValueField="petname" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged"></asp:DropDownList>
         </div>
         <div style="text-align: center;background-color: #FFF8D7; height:500px; width: 1000px;margin:0 auto; background-image: url(Images/divbackground.png)">
             <div style="text-align: left; margin-top: 0px; margin-left: 150px; float:left">
