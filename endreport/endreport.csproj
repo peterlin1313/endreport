@@ -88,6 +88,7 @@
     <Content Include="109111139.md" />
     <None Include="packages.config" />
     <Content Include="Web.config.peterlin" />
+    <Content Include="pet.bak" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
